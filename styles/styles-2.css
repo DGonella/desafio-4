@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: block;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    background-color:rgb(167, 58, 167);
+}
+
+.text-header{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    font-size: 25px;
+    color:#fdfdfe ;
+    font-family: Pixelify Sans;
+    color: rgb(72, 255, 0);
+}
+
+.game img{
+    max-width: 100%;
+    max-height: 100%;
+    border:2px #333 solid;
+}
+
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    font-family: Pixelify Sans;
+    font-size: 1.5rem;
+    color: rgb(72, 255, 0);
+}
+
+main{
+    display: flex;
+    justify-content:center;
+    background-color:rgb(91, 231, 78)
+}
+
+.div-top{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:2%;
+    margin-bottom:2%;
+    font-family: Pixelify Sans;
+    font-size: 1.5rem;
+    color: rgb(255, 217, 0);
+}
+
+.div-bottom{
+    display: block;
+    height: 20%;
+    width: 50%;
+}
+
+h2{
+    font-family: Pixelify Sans;
+    color: rgb(3, 3, 3);
+}
+
+p{
+    font-family: Roboto Slab;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+}
+
+.acbutton{
+  align-items: center;
+  appearance: none;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 1px -2px,rgba(0, 0, 0, .14) 0 2px 2px 0,rgba(0, 0, 0, .12) 0 1px 5px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Roboto,sans-serif;
+  font-size: .875rem;
+  font-weight: 500;
+  height: 36px;
+  justify-content: center;
+  letter-spacing: .0892857em;
+  line-height: normal;
+  min-width: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 0 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  will-change: transform,opacity;
+}
+
+.button-61:hover {
+  box-shadow: rgba(218, 61, 61, 0.2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+}
